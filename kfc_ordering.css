@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("./istockphoto-625904518-1024x1024.jpg");
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+.kfc_body{
+    min-width:40%;
+    position: absolute;
+    top:10%;
+    left :28%;
+    background-color:transparent;
+    text-align: center;
+    gap:1vh;
+}
+/*submit button*/
+#submiti{
+    background-color: #ff0000;
+    color:white;
+    border:1px solid #ff0000;
+    border-radius:2.5vh;
+    height:7vh;
+    width:20vh;
+    font-weight: 500;
+}
+#nameerr ,#moberr{
+    color:darkred;
+}
+/*card pricing*/
+.card{
+    width: 280px;
+    display:flex;
+    align-items: center;
+    gap:10px;
+    flex-direction:column;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.2);
+    border-radius:15px;
+    text-align: center;
+     color:grey;
+     padding: 10px 13px;
+     outline: none;
+}
+.card img{
+    width:100%;
+}
+/*card pricing*/
+.card-price{
+    display:flex;
+    flex-direction:column;
+    gap:0.5rem;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.material-symbols-outlined:hover{
+    color:blue;
+    cursor: pointer;
+}
+.accordion-body{
+        display: flex;
+        gap:30px;
+        flex-wrap: wrap;
+        margin-bottom: 2rem;
+        margin-left: 2rem;
+        
+}
+#place_order{
+    margin-top:1vh;
+ background-color:#ff0000;
+ border :2px solid #ff0000; 
+}
+#show ,#show1 ,#show3{
+    background-color:none;
+    font-size: 4vh;
+    font-weight: 400;
+}
+#show:hover{
+    background-color:#ff0000;
+    color:white;
+    
+}
+#show1:hover{
+    background-color:#ff0000;
+    color:white;
+}
+#show3:hover{
+    background-color:#ff0000;
+    color:white;
+}
+.accordion-body{
+    background-color:transparent;
+}
